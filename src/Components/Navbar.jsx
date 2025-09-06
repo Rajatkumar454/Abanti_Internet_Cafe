@@ -17,7 +17,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg p-2 bg-white shadow">
                     <div className="container text-white">
 
-                        <NavLink to='/' className="navbar-brand border-0 fs-6 bg-transparent text-black" ><img className='logo' src="./LOGO_png.webp" alt="logo" /> <span className='logo_text'>Abanti Internet Cafe</span></NavLink>
+                        <NavLink to='/' className="navbar-brand border-0 fs-6 bg-transparent text-black" ><img className='logo' src="../dist/assets/Logo.webp" alt="logo" /> <span className='logo_text'>Abanti Internet Cafe</span></NavLink>
                         {/* <img src="/LOGO_png.png" alt="logo" /> */}
 
                         <button className="navbar-toggler border-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
