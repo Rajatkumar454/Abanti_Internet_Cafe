@@ -7,6 +7,7 @@ import About from './Pages/About'
 import Services from './Pages/Services'
 import Contactus from './Pages/Contactus'
 import Footer from './Components/Footer'
+import CostumerDataTable from './Components/CostumerDataTable'
 // import Contact from './Pages/Contact'
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/services' element={<Services />} />
         <Route path='/contact_us' element={<Contactus />} />
+        <Route path='/api' element={<CostumerDataTable />} />
       </Routes>
       <div className=''>
         <Footer/>
