@@ -99407,9 +99407,10 @@ app.get('/api/consumerList', (req, res) => {
     res.send(consumerList)
 })
 
+const port= 'https://abantiinternetcafe.netlify.app/'
 
 
-app.listen(5000, () => {
+app.listen(port, () => {
     console.log("server has been started");
 })
 
