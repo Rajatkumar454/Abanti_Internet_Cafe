@@ -3,7 +3,7 @@ import express from "express"
 const app = express()
 
 app.get('/api/consumerList', (req, res) => {
-    let consumer = [
+    let consumerList = [
         {
             "ConsumerNo": "600003",
             "ConsumerName": "Mr. SELAE SING GILUA",
@@ -99404,7 +99404,7 @@ app.get('/api/consumerList', (req, res) => {
         }
     ]
     
-    res.send(consumer)
+    res.send(consumerList)
 })
 
 app.listen(5000, () => {
