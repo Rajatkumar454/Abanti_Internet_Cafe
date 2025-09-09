@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  server: {
-    proxy: {
-      "/api": "https://abantiinternetcafe.netlify.app/"
-    }
-  },
+  // server: {
+  //   proxy: {
+  //     "/data": "https://abantiinternetcafe.netlify.app/"
+  //   }
+  // },
   plugins: [react()],
 })
