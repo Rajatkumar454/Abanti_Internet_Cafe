@@ -22,8 +22,19 @@ const Costumer = () => {
       <p>consumer:{cosumer.length} </p>
       {cosumer.map((cosumer) =>
         (
-          <div className="div" key={cosumer.ConsumerNo}>
-            <p>{cosumer.ConsumerName}</p>
+          <div className="row" key={cosumer.ConsumerNo}>
+            <div className="col-md-3">
+              <p>{cosumer.ConsumerNo}</p>
+            </div>
+             <div className="col-md-3">
+              <p>{cosumer.ConsumerName}</p>
+            </div>
+             <div className="col-md-3">
+              <p>{cosumer.MobileNo}</p>
+            </div>
+             <div className="col-md-3">
+              <p>{cosumer.AddressLine1}</p>
+            </div>
             
 
           </div>
@@ -39,3 +50,4 @@ const Costumer = () => {
 }
 
 export default Costumer
+front_end/dis
